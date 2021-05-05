@@ -8,6 +8,9 @@ using System.Text;
 using SimpleValidator.Messages;
 using SimpleValidator.Interfaces;
 
+// Source: https://github.com/gnpretorius/simple-validator
+// Foreked for NET5
+
 namespace SimpleValidator
 {
     /// <summary>

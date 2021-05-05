@@ -1,1 +1,0 @@
-nuget pack ../src/SimpleValidator/SimpleValidator.csproj

@@ -357,6 +357,36 @@ namespace SimpleValidator.Extensions
 
         #endregion
 
+
+        #region " Double "
+
+        public static bool IsNotZero(this double value)
+        {
+            return (value != (double)0.0);
+        }
+
+        public static bool Is(this double value, double compare)
+        {
+            return (value == compare);
+        }
+
+        public static bool IsGreaterThan(this double value, double min)
+        {
+            return (value >= min);
+        }
+
+        public static bool IsLessThan(this double value, double max)
+        {
+            return (value <= max);
+        }
+
+        public static bool IsBetween(this double value, double min, double max)
+        {
+            return (value <= max && value >= min);
+        }
+
+        #endregion
+
         #region " DateTime "
 
         #region " IsDate "
