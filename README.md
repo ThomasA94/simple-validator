@@ -1,3 +1,6 @@
+based on https://github.com/gnpretorius/simple-validator
+
+
 # SimpleValidator
 
 A simple .Net validation library written in C#
